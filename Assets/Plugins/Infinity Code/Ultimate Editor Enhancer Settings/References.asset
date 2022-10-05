@@ -177,4 +177,6 @@ MonoBehaviour:
     windowMode: 0
   _sceneHistory:
   - name: Playground
+    path: Assets/Scenes/New folder/Playground.unity
+  - name: Playground
     path: Assets/Scenes/Playground.unity
