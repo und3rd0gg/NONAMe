@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
@@ -12,7 +13,8 @@ namespace StarterAssets
 		public Vector2 look;
 		public bool jump;
 		public bool sprint;
-
+		public bool interact;
+		
 		[Header("Movement Settings")]
 		public bool analogMovement;
 
@@ -43,8 +45,18 @@ namespace StarterAssets
 		{
 			SprintInput(value.isPressed);
 		}
+
+		public void OnInteract(InputValue value)
+		{
+			InteractInput(value.isPressed);
+		}
 #endif
 
+
+		public void InteractInput(bool newInteractState)
+		{
+			interact = newInteractState;
+		}
 
 		public void MoveInput(Vector2 newMoveDirection)
 		{
