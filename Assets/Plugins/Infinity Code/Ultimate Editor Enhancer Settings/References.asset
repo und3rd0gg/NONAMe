@@ -175,8 +175,4 @@ MonoBehaviour:
     customWindowSize: {x: 400, y: 300}
     alignWindowToBar: 1
     windowMode: 0
-  _sceneHistory:
-  - name: Playground
-    path: Assets/Scenes/New folder/Playground.unity
-  - name: Playground
-    path: Assets/Scenes/Playground.unity
+  _sceneHistory: []
