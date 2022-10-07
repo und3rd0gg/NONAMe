@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: References
   m_EditorClassIdentifier: 
   _bookmarks: []
-  _favoriteWindows: []
+  _favoriteWindows:
+  - title: ProBuilder
+    className: UnityEditor.ProBuilder.ProBuilderEditor, Unity.ProBuilder.Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - title: Animation
+    className: UnityEditor.AnimationWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   _quickAccessItems:
   - tooltip: Open Scene
     expanded: 0
@@ -175,4 +181,22 @@ MonoBehaviour:
     customWindowSize: {x: 400, y: 300}
     alignWindowToBar: 1
     windowMode: 0
-  _sceneHistory: []
+  _sceneHistory:
+  - name: Demo_1
+    path: Assets/SFLCK_2/Scenes/Demo_1.unity
+  - name: MainMenu
+    path: Assets/Scenes/MainMenu.unity
+  - name: Arena
+    path: Assets/Scenes/Arena.unity
+  - name: Spinning Color Discs
+    path: Assets/Plugins/Shapes/Samples/Spinning Color Discs.unity
+  - name: Color Picker
+    path: Assets/Plugins/Shapes/Samples/Color Picker.unity
+  - name: FPS HUD
+    path: Assets/Plugins/Shapes/Samples/FPS HUD.unity
+  - name: Playground
+    path: Assets/Scenes/Playground.unity
+  - name: Demo
+    path: Assets/Plugins/HQ Hand+Flashlight model/Demo.unity
+  - name: Playground
+    path: Assets/Scenes/New folder/Playground.unity
