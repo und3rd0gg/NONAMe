@@ -184,12 +184,10 @@ MonoBehaviour:
   _sceneHistory:
   - name: Demo_1
     path: Assets/Plugins/SFLCK_2/Scenes/Demo_1.unity
-  - name: Playground
-    path: Assets/Scenes/Playground.unity
-  - name: Demo_1
-    path: Assets/SFLCK_2/Scenes/Demo_1.unity
   - name: MainMenu
     path: Assets/Scenes/MainMenu.unity
+  - name: Demo_1
+    path: Assets/SFLCK_2/Scenes/Demo_1.unity
   - name: Arena
     path: Assets/Scenes/Arena.unity
   - name: Spinning Color Discs
@@ -198,6 +196,8 @@ MonoBehaviour:
     path: Assets/Plugins/Shapes/Samples/Color Picker.unity
   - name: FPS HUD
     path: Assets/Plugins/Shapes/Samples/FPS HUD.unity
+  - name: Playground
+    path: Assets/Scenes/Playground.unity
   - name: Demo
     path: Assets/Plugins/HQ Hand+Flashlight model/Demo.unity
   - name: Playground
