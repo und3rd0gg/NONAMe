@@ -1,7 +1,6 @@
-﻿using Infrastructure;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Gameplay
+namespace NONAMe.Gameplay
 {
     public class InteractableTest : MonoBehaviour, IInteractable
     {

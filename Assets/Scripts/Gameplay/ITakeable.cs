@@ -1,4 +1,4 @@
-﻿namespace Infrastructure
+﻿namespace NONAMe.Gameplay
 {
   public interface ITakeable : IInteractable
   {

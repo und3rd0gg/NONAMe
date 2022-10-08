@@ -1,8 +1,7 @@
 ﻿using Dythervin.AutoAttach;
-using Infrastructure;
 using UnityEngine;
 
-namespace Gameplay
+namespace NONAMe.Gameplay
 {
     public class PlayerInteractor : MonoBehaviour, IInteractor
     {

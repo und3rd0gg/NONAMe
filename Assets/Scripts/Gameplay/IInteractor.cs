@@ -1,6 +1,4 @@
-﻿using Infrastructure;
-
-namespace Gameplay
+﻿namespace NONAMe.Gameplay
 {
     public interface IInteractor
     {
