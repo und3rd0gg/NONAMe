@@ -1,7 +1,7 @@
 using Dythervin.AutoAttach;
 using UnityEngine;
 
-namespace UI
+namespace NONAMe.UI
 {
     public class PanelsRoot : MonoBehaviour
     {

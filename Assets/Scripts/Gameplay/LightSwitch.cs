@@ -1,7 +1,6 @@
-using Infrastructure;
 using UnityEngine;
 
-namespace CodeNameHui.StartRoom
+namespace NONAMe.Gameplay
 {
   public class LightSwitch : MonoBehaviour, IInteractable
   {

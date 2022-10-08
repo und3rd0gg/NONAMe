@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Infrastructure
+namespace NONAMe.Infrastructure
 {
   public static class Constants
   {
