@@ -1,13 +1,16 @@
-using UI;
+using Dythervin.AutoAttach;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class SettingsButton : MonoBehaviour, IPointerClickHandler
+namespace NONAMe.UI
 {
-    [SerializeField] private SettingsPanel _settingsPanel;
-
-    public void OnPointerClick(PointerEventData eventData)
+    public class SettingsButton : MonoBehaviour, IPointerClickHandler
     {
-        _settingsPanel.Activate();
+        [SerializeField][Attach(Attach.Scene)] private SettingsPanel _settingsPanel;
+
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            _settingsPanel.Activate();
+        }
     }
 }

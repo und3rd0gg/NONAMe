@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UI
+namespace NONAMe.UI
 {
     public class Panel : MonoBehaviour
     {
