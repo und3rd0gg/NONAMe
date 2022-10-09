@@ -2068,7 +2068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fed9e1f9bf854d5c8099636846fcea59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _camera: {fileID: 0}
+  _camera: {fileID: 1838843171778378592}
   _firstPersonController: {fileID: 2621232890231760320}
   _maxInteractionDistance: 1
 --- !u!136 &2621232890231760325
