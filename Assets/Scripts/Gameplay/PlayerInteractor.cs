@@ -7,21 +7,20 @@ namespace NONAMe.Gameplay
     {
         [SerializeField] [Attach(Attach.Scene)]
         private Camera _camera;
+        [SerializeField] [Attach] private FirstPersonController _firstPersonController;
+        
         [SerializeField][Min(0.1f)] 
         private float _maxInteractionDistance = 1f;
 
-        private InteractionInput _interactionInput;
 
         private void OnEnable()
         {
-            SetupInput();
+            _firstPersonController.Interact += OnInteract;
+        }
 
-            void SetupInput()
-            {
-                _interactionInput = new InteractionInput();
-                _interactionInput.Enable();
-                _interactionInput.Player.Interact.performed += context => OnInteract();
-            }
+        private void OnDisable()
+        {
+            _firstPersonController.Interact -= OnInteract;
         }
 
         private void OnInteract()
